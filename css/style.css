@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    background-color: #231145;
+    color: #472d80;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    color: #ea787b;
+    font-weight: 300;
+}
+
+
+
+/* Wrapper */
+.wrapper {
+    width: 95%;
+    background-color: #f7eeeb;
+    margin: auto;
+    margin-top: 20px;
+    border-left: 3px solid #ea787b;
+    border-right: 3px solid #ea787b;
+}
+
+/* Header */
+.header {
+    text-align: center;
+}
+
+.header-banner {
+    height: 100%;
+}
+
+.header-logo {
+    margin-bottom: 2%;
+}
+
+
+/* Nav bar */
+.nav {
+    background-color: #231145;
+    border-top: 2px solid #ea787b;
+    border-bottom: 2px solid #ea787b;
+}
+
+.nav ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ol li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav ol li a {
+    color: #f7eeeb;
+    text-decoration: none;
+}
+
+.nav ol li a:hover {
+    color: #ea787b;
+    font-weight: bold;
+
+}
+
+/* Main */
+.main {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main b {
+    color: #ea787b;
+}
+
+.main p {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main hr {
+    border-top: 3px dotted #472d80;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100px;
+}
+
+.main img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 2px 20px #dec9c9;
+}
+
+.main section {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.main section audio {
+    margin-top: 20px;
+}
+
+.album-detail {
+    display: flex;
+    text-align: left;
+    text-align: justify;
+    align-items: center;
+}
+
+.album-detail img {
+    box-shadow: none;
+    margin-left: 15%;
+}
+
+.album-detail b {
+    color: #ea787b;
+}
+
+.album-detail i {
+    color: #ea787b;
+}
+
+.tracks {
+    display: flex;
+}
+
+.tracks .poster {
+    flex: 1;
+}
+
+.tracks .poster img {
+    margin-top: 2%;
+}
+
+.tracks .tracklist-grid {
+    flex: 1;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    font-size: smaller;
+}
+
+.main .merch-playing {
+    display: block;
+}
+
+.main .merch-playing hr {
+    border-top: 2px solid #ea787b;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.main .merch-playing img {
+    box-shadow: none;
+}
+
+.main .merch-playing div {
+    margin-top: 3%;
+}
+
+.main .merch-playing div p {
+    padding-left: 500px;
+    padding-right: 500px;
+    font-weight: 400;
+}
+
+.main .merch-grid {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+    gap: 40px;
+}
+
+.main .merch-grid img {
+    box-shadow: none;
+}
+
+.main .merch-grid div:nth-child(odd) {
+    border: 2px solid #ffffff;
+    background-color: #c4c7c9;
+}
+
+.main .merch-grid div:nth-child(even) {
+    margin-top: 40px;
+}
+
+.main .merch-grid div:nth-child(1) {
+    background-color: #f4f4f4;
+}
+
+.main .merch-grid div:nth-child(3) {
+    background-color: #f4f4f4;
+}
+
+.main .merch-grid div p {
+    padding: 0;
+    font-weight: 400;
+    font-size: small;
+}
+
+.main button {
+    background-color: #ea787b;
+    color: #f7eeeb;
+    border-radius: 25px;
+    border: none;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main button:hover {
+    background-color: #5d4297;
+    box-shadow: 1px 1px 1px 1px #9f9f9e;
+}
+
+.main .order {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+.main .order form fieldset {
+    padding: 15px;
+    border: 1.5px solid #ea787b;
+}
+
+.main .order form fieldset legend {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main .order form fieldset label {
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+
+.main .order form fieldset button {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+
+
+/* Footer */
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: #ea787b;
+    height: 150px;
+}
+
+.footer img {
+    box-shadow: none;
+}
+
+.footer .logo-bottom {
+    flex: 1;
+    align-self: center;
+}
+
+.footer .thanks {
+    flex: 1;
+    align-self: center;
+}
+
+.footer .thanks h6 {
+    color: #f7eeeb;
+}
+
+.footer .thanks i {
+    color: #472d80;
+}
+
+
+.footer .social {
+    flex: 1;
+    align-self: center;
+}
